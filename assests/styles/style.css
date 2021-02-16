@@ -1,0 +1,432 @@
+
+h1,h2{
+    font-family: Playfair Display;
+    font-style: normal;
+    letter-spacing: 0em;
+}
+
+.navbar .img1{
+
+width: 82%;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+
+}
+.menu-list{
+    justify-content: center;
+}
+.navbar .img2{
+    width: 100%;
+}
+.d-flex{
+display: flex;
+}
+.d-grid-mb{
+ display: grid;
+}
+
+.menu-list li{
+    margin: 45% 0;
+}
+
+h1{
+font-size: 50px;
+font-weight: 400;
+line-height: 50px;
+text-align: left;
+margin: 7% 0;
+width: 220px;
+}
+h2{
+    font-size: 50px;  
+    font-weight: 400;
+    line-height: 50px;
+    text-align: left;
+    margin: 7% 0;
+    
+}
+
+h3{
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+font-style: normal;
+letter-spacing: 0em;
+}
+
+h3, p, button, a, li{
+    font-family: Poppins; 
+}
+
+p{
+left: 16px;
+top: 224px;
+border-radius: nullpx;
+
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: -0.01em;
+text-align: left;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.content{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.geometry_2_mobile{
+    width: 100%;
+    margin: 10% 0;
+}
+.button{
+    height: 44px;
+    border-radius: 0px;
+    background: #1A2236;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 5% 0 !important;
+}
+
+.button a, footer a, .gt_button{
+    color: white;
+}
+
+.hide{
+    display: none;
+}
+.mobile_nav{
+height: 74px;
+align-items: center;
+justify-content: space-between;
+}
+.fa-bars{
+
+height: 14px;
+width: 20px;
+left: 284px;
+top: 19px;
+border-radius: 0px;
+
+}
+
+.project_info{
+    background: #1A2236;
+    padding: 5%;
+
+}
+
+.project_info * {
+    padding: 1%;
+}
+
+.project_info h3, .project_info a{
+ color: white;
+}
+.project_img{
+    width: 100%;
+    height: 186px;
+    background-color: blue;
+
+}
+.list_leng_fram {
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 5%;
+}
+.project_link{
+    border: 1px solid #FFFFFF;
+    width: 65%;
+    max-width:178px;
+    margin-top: 5%;
+}
+
+.list_leng_fram li{
+border-radius: 0px;
+background: #98DEDE;
+}
+.about h2{
+    margin-top: 20%;
+}
+.about_rectangle{
+
+width: 100%;
+margin: 5% 0;
+border-radius: 0px;
+color: white;
+}
+.about_rectangle .contained{
+    margin-top: 15%;
+    margin-left: 15%;
+}
+
+.about_rectangle h3{
+    font-weight: 800;
+    line-height: 30px;
+    margin-bottom: 5%;
+}
+
+.about_rectangle ul{
+
+   list-style:disc;
+
+}
+
+.languages{
+background: #1C528A;
+
+}
+
+.framework{
+    background: #E2505C;
+
+}
+.ic{
+    border-radius: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+
+.skills{
+    background: #FEBF52;
+}
+.contact_sect{
+    background: #F9F9FA;
+}
+.contact form input, .contact form textarea{
+    margin: 1.5% 0;
+}
+
+.geometry_3_mobile{
+    height: 74.01807403564453px;
+width: 111px;
+left: 0px;
+top: 4129px;
+border-radius: 0px;
+
+}
+
+.imputs-form input {
+    height: 52px;
+width: 100%;
+left: 16px;
+top: 4400px;
+border-radius: 4px;
+
+}
+
+#enter_text{
+height: 112px;
+width: 100%;
+
+border-radius: 4px;
+
+}
+
+footer{
+    height: 20vh;
+    border-radius: 0px;
+    background: #1A2236;
+    row-gap: 15%;
+}
+footer section{
+    padding: 5%;
+}
+.social_contact{
+    justify-content: space-between;
+}
+footer i{
+    color: white;
+}
+
+@media only screen and (min-width: 1024px) {
+
+
+    .menu-list{
+        margin: 0;
+        width: 100%;
+    }
+    .menu-list li{
+      margin: 4% 0; 
+    }
+ 
+    .navbar .d-grid-mb{
+        display: flex;
+        justify-content: space-evenly;
+        width: 50%;
+        box-shadow: 0px 0.5px 0px 0px #DDDFE6;
+    }
+    .navbar a{
+
+     line-height: 24px;
+
+    }
+    .show {
+        display: none;
+    }
+    h1{
+   
+        font-size: 110px;
+        line-height: 1;
+        width: 484px;
+        margin: 17% 0;
+    }
+    h2{
+    
+font-size: 110px;
+font-style: normal;
+font-weight: 400;
+line-height: 110px;
+letter-spacing: 0em;
+text-align: center;
+
+
+    }
+    .principal p{
+        margin-bottom: 10%;
+    }
+    .principal{
+      flex-direction: row;
+     justify-content: center;
+    }
+    .principal_left{
+        box-sizing: border-box;
+        width: 40%;
+        margin: 5% 10%;
+
+        
+    }
+  
+    .principal_right {
+        width: 60%;
+    }
+    .principal_right .img1 {
+        width: 100%;
+        left: 738px;
+        top: 100px;
+        border-radius: 0px;
+
+    }
+    .button{
+        height: 70px;
+        width: 40%;
+        font-size: 18px;
+        font-weight: 500;
+
+    }
+    .hide{
+        display: block;
+    }
+
+    .vertical-lf {
+        transform: rotate(-90deg);
+        color: blue;
+        margin: 10%;
+    
+      }
+      .pt-p1{
+          display: grid;
+          grid-template-columns: 1fr 3fr;
+      }
+    .p2-p6{
+        grid-template-columns:repeat(2,1fr);
+        display: grid;
+    }
+    .p2-p6 div img{
+        width: 45vw;
+        height: 30vw;
+    }
+    .image-geometry_2{
+        align-self: end;
+    }
+
+    .grupal-about{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 5% 10% 0 10%;
+             
+    }
+    .about_rectangle{
+        width: 30vw;
+        height: 30vw;
+        box-sizing: border-box;
+        max-height: 289px;
+max-width: 289px;
+margin: 0;
+
+    }
+  
+    .about{
+       flex-direction: row-reverse;
+       margin: 10% 0;
+    }
+   
+    .ic{
+        margin-top: -10%;
+    }
+    .ic img{
+
+    bottom: 0;
+
+    width: 45%;
+    max-width:50%;
+    max-height:50%;
+    margin-top: -10%;
+    }
+    .ic-dots{
+        flex-direction: row;
+       
+    }
+    .contact{
+        width: 40%;
+        justify-content: center;
+        
+
+    }
+    .imputs-form{
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        column-gap: 10%;        
+    }
+    .h4{
+
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+color: #7D7C84;
+
+
+    }
+    .contact form{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact form input{
+        
+        margin: 5%;
+        justify-self: center;
+    }
+
+    .gt_button{
+        align-self: center;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: none;
+        height: 10vw;
+    }
+}

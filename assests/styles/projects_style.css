@@ -1,0 +1,70 @@
+body{
+    color: #1A2236;
+
+}
+
+.mobile_nav{
+    flex-direction: row-reverse;
+}
+.mobile_nav .iconify{
+    font-size: 20px;
+    color: #1A2236;
+
+}
+h3{
+font-size: 20px;
+font-weight: 700;
+line-height: 16px;
+color: #1A2236;
+
+}
+
+.list_leng_fram li {
+    background-color: transparent;
+    border: 0.52px solid #1A2236;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 8px;
+    text-align: center;
+    padding: 6px 10px;
+    margin: 7% 0;
+}
+
+.small-img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.small-img img{
+    width: 100%;
+    height: 15vh;
+    column-gap: 0;
+}
+
+.project_info{
+    background-color: transparent;
+    padding: 0;
+    margin: 10% 4.5% 5% 3%;
+    line-height: 27px;
+}
+footer, .button{
+    background: transparent;
+}
+footer{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.button{
+    border: 1px solid #1A2236;
+    width: 75%;
+    margin: auto;
+    vertical-align: baseline;
+}
+
+.button i{
+    color: #1A2236;
+    position: absolute;
+    right: 17%;
+}
