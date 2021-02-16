@@ -4,6 +4,18 @@ h1,h2{
     font-style: normal;
     letter-spacing: 0em;
 }
+.d-grid{
+    display: grid;
+}
+.d-flex-mb{
+    display: flex;
+    }
+    .d-flex{
+        display: flex;
+    }
+    .d-grid-mb{
+     display: grid;
+    }
 
 .navbar .img1{
 
@@ -19,12 +31,7 @@ border-radius: 0px;
 .navbar .img2{
     width: 100%;
 }
-.d-flex{
-display: flex;
-}
-.d-grid-mb{
- display: grid;
-}
+
 
 .menu-list li{
     margin: 45% 0;
@@ -125,9 +132,7 @@ border-radius: 0px;
 
 }
 
-.project_info * {
-    padding: 1%;
-}
+
 
 .project_info h3, .project_info a{
  color: white;
@@ -153,8 +158,14 @@ border-radius: 0px;
 border-radius: 0px;
 background: #98DEDE;
 }
+
 .about h2{
     margin-top: 20%;
+}
+.grupal-about{
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 .about_rectangle{
 
@@ -162,10 +173,17 @@ width: 100%;
 margin: 5% 0;
 border-radius: 0px;
 color: white;
+max-width: 288px;
+max-height: 288px;
+min-width: 288px;
+min-height: 288px;
+
 }
 .about_rectangle .contained{
     margin-top: 15%;
     margin-left: 15%;
+    height: 80vw;
+    
 }
 
 .about_rectangle h3{
@@ -215,7 +233,9 @@ top: 4129px;
 border-radius: 0px;
 
 }
-
+.imputs-form{
+    flex-direction: column;
+}
 .imputs-form input {
     height: 52px;
 width: 100%;
@@ -250,8 +270,26 @@ footer i{
 }
 
 @media only screen and (min-width: 1024px) {
+  /* fonts */
+    h1{
+   
+        font-size: 110px;
+        line-height: 1;
+        width: 484px;
+        margin: 17% 0;
+    }
+    h2{
+    
+font-size: 110px;
+font-style: normal;
+font-weight: 400;
+line-height: 110px;
+letter-spacing: 0em;
+text-align: center;
 
 
+    }
+/* header */
     .menu-list{
         margin: 0;
         width: 100%;
@@ -274,24 +312,10 @@ footer i{
     .show {
         display: none;
     }
-    h1{
-   
-        font-size: 110px;
-        line-height: 1;
-        width: 484px;
-        margin: 17% 0;
+    .hide{
+        display: block;
     }
-    h2{
-    
-font-size: 110px;
-font-style: normal;
-font-weight: 400;
-line-height: 110px;
-letter-spacing: 0em;
-text-align: center;
-
-
-    }
+/* main principal */
     .principal p{
         margin-bottom: 10%;
     }
@@ -305,6 +329,9 @@ text-align: center;
         margin: 5% 10%;
 
         
+    }
+    .principal_left .button{
+        width: 70%;
     }
   
     .principal_right {
@@ -324,15 +351,30 @@ text-align: center;
         font-weight: 500;
 
     }
-    .hide{
-        display: block;
-    }
+   /* main projects */
 
     .vertical-lf {
         transform: rotate(-90deg);
-        color: blue;
         margin: 10%;
     
+      }
+      .list_leng_fram{
+          width: 55%;
+      }
+      .project_link{
+        border: 1px solid #1A2236;
+        background-color: white;
+        font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: center;
+      }
+      .project_info a{
+        color: #1A2236;
+
       }
       .pt-p1{
           display: grid;
@@ -349,7 +391,7 @@ text-align: center;
     .image-geometry_2{
         align-self: end;
     }
-
+/* main about */
     .grupal-about{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -370,7 +412,10 @@ margin: 0;
        flex-direction: row-reverse;
        margin: 10% 0;
     }
-   
+
+    .about .button{
+        width: 80%;
+    }
     .ic{
         margin-top: -10%;
     }
@@ -381,7 +426,7 @@ margin: 0;
     width: 45%;
     max-width:50%;
     max-height:50%;
-    margin-top: -10%;
+    margin-top: 15%;
     }
     .ic-dots{
         flex-direction: row;
@@ -393,6 +438,7 @@ margin: 0;
         
 
     }
+    /* main contact */
     .imputs-form{
         display: grid;
         grid-template-columns:repeat(2,1fr);
@@ -423,6 +469,7 @@ color: #7D7C84;
     .gt_button{
         align-self: center;
     }
+    /* footer */
     footer{
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -430,3 +477,5 @@ color: #7D7C84;
         height: 10vw;
     }
 }
+
+

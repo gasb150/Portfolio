@@ -29,15 +29,25 @@ color: #1A2236;
     padding: 6px 10px;
     margin: 7% 0;
 }
-
+.carrusel{
+    height: 80vw;
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+}
+.project_img{
+    height: 100%;
+}
 .small-img{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    border: 1px solid #FFFFFF 10%
+    
 }
 .small-img img{
     width: 100%;
-    height: 15vh;
+    height: 100%;
     column-gap: 0;
+
 }
 
 .project_info{
@@ -46,14 +56,14 @@ color: #1A2236;
     margin: 10% 4.5% 5% 3%;
     line-height: 27px;
 }
-footer, .button{
+ .button{
     background: transparent;
 }
-footer{
+.see-more{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: auto;
+
 }
 
 .button{
@@ -67,4 +77,18 @@ footer{
     color: #1A2236;
     position: absolute;
     right: 17%;
+}
+
+@media only screen and (min-width: 1024px) {
+
+.project_info{
+    margin: 0;
+    padding: 0;
+flex-direction: column;
+justify-content: center;
+
+left: 370px;
+top: 1218px;
+border-radius: nullpx;
+}
 }
