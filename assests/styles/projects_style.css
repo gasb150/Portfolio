@@ -56,9 +56,7 @@ color: #1A2236;
     margin: 10% 4.5% 5% 3%;
     line-height: 27px;
 }
- .button{
-    background: transparent;
-}
+
 .see-more{
     flex-direction: column;
     align-items: center;
@@ -73,7 +71,7 @@ color: #1A2236;
     vertical-align: baseline;
 }
 
-.button i{
+.button .ic-wt {
     color: #1A2236;
     position: absolute;
     right: 17%;
@@ -90,5 +88,36 @@ justify-content: center;
 left: 370px;
 top: 1218px;
 border-radius: nullpx;
+}
+.p-about{
+    max-width: 720px;
+}
+.button{
+    width: 100%;
+    max-width: 246px;
+}
+.button i{
+    position: static;
+}
+.see-more{
+    margin-top: 5%;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    column-gap: 10%;
+}
+.next-prev{
+    justify-content: space-between;
+    border: none;
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+.bttn-nx-pv{
+    border: none;
+    width: 100%;
+    background-color: transparent;
+    max-width: 150px;
+}
+.bttn-nx-pv .iconify{
+    margin:0 1%;
 }
 }

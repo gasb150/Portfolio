@@ -4,25 +4,46 @@ h1,h2{
     font-style: normal;
     letter-spacing: 0em;
 }
+.bg-dk{
+    background: #1A2236;
+    color: #FFFFFF;
+
+}
+.bg-wt{
+    background-color: #FFFFFF;
+    color: #1A2236
+}
+.bg-dk-pc{
+    background: #1A2236;
+    color: #FFFFFF;
+}
+.bg-wt-pc{
+        background-color: #FFFFFF;
+        color: #1A2236
+    }
+
 .d-grid{
     display: grid;
 }
+.d-flex{
+    display: flex;
+  }
+.d-grid-mb{
+    display: grid;
+   }
+
 .d-flex-mb{
     display: flex;
     }
-    .d-flex{
-        display: flex;
-    }
-    .d-grid-mb{
-     display: grid;
-    }
 
+  
+  .d-grid-pc{
+    display: grid;
+}
 .navbar .img1{
 
 width: 82%;
-left: 0px;
-top: 0px;
-border-radius: 0px;
+
 
 }
 .menu-list{
@@ -67,9 +88,7 @@ h3, p, button, a, li{
 }
 
 p{
-left: 16px;
-top: 224px;
-border-radius: nullpx;
+
 
 font-size: 14px;
 font-style: normal;
@@ -98,7 +117,6 @@ a{
 .button{
     height: 44px;
     border-radius: 0px;
-    background: #1A2236;
     width: 100%;
     box-sizing: border-box;
     margin: 5% 0 !important;
@@ -120,14 +138,11 @@ justify-content: space-between;
 
 height: 14px;
 width: 20px;
-left: 284px;
-top: 19px;
-border-radius: 0px;
+
 
 }
 
 .project_info{
-    background: #1A2236;
     padding: 5%;
 
 }
@@ -228,8 +243,7 @@ background: #1C528A;
 .geometry_3_mobile{
     height: 74.01807403564453px;
 width: 111px;
-left: 0px;
-top: 4129px;
+
 border-radius: 0px;
 
 }
@@ -239,8 +253,7 @@ border-radius: 0px;
 .imputs-form input {
     height: 52px;
 width: 100%;
-left: 16px;
-top: 4400px;
+
 border-radius: 4px;
 
 }
@@ -256,7 +269,6 @@ border-radius: 4px;
 footer{
     height: 20vh;
     border-radius: 0px;
-    background: #1A2236;
     row-gap: 15%;
 }
 footer section{
@@ -339,9 +351,8 @@ text-align: center;
     }
     .principal_right .img1 {
         width: 100%;
-        left: 738px;
-        top: 100px;
-        border-radius: 0px;
+     
+  
 
     }
     .button{
