@@ -1,5 +1,9 @@
+// Url actual
+let URLact = window.location.pathname.substring(9,10);
+console.log(URLact)
+
 //Imagenes
-let images = ['./assests/images/project_1/img_1.jpeg', './assests/images/project_1/img_2.jpeg', './assests/images/project_1/img_3.jpeg', './assests/images/project_1/img_4.jpeg', './assests/images/project_1/img_5.jpeg'];
+let images = [`./assests/images/project_${URLact}/img_1.jpeg`, `./assests/images/project_${URLact}/img_1.jpeg`, `./assests/images/project_${URLact}/img_1.jpeg`, `./assests/images/project_${URLact}/img_1.jpeg`, `./assests/images/project_${URLact}/img_1.jpeg`];
 //Elemento para cargar el slider
 let slider = document.getElementById("slider-js");
 //elemento general
@@ -45,16 +49,16 @@ function counter() {
     if (active){
         conta++;
         if (conta>=images.length) conta=0;
-        console.log(conta);
         setInterval(slideImage(conta), 5000);
         setInterval(setActive(conta),5000);
     }
 }
 
 function slideImage(id) {
-    if (!active && isNaN(id)){
+    if (!active && !isNaN(id)){
         conta = id;
         setActive(id);
+        console.log(conta)
     }
 
     slider.style.left = `-${id}00%`
@@ -62,8 +66,18 @@ function slideImage(id) {
 let navIcons = [...document.getElementsByClassName("slider-nav")];
 
 function setActive(id) {
-    navIcons.map(idValue => idValue.attributes.id.nodeValue.slice(-1)== id ? 
-                            idValue.classList.add("slider-nav--active") : 
-                            idValue.classList.remove("slider-nav--active"))
+    // for(let icon in navIcons){
+    //     if(icon < navIcons.length){
+    //         if(navIcons[icon].id=== "slider-nav-"+id){
+    //             document.getElementById(navIcons[icon].id).classList.add("slider-nav--active");
+    //         }else{
+    //             document.getElementById(navIcons[icon].id).classList.remove("slider-nav--active");
+    //         }
+    //     }
+    // }
+     navIcons.map(idValue => idValue.attributes.id.nodeValue.slice(-1)== id ? 
+                             idValue.classList.add("slider-nav--active") : 
+                             idValue.classList.remove("slider-nav--active",
+                             ))
 }
 
