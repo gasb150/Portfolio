@@ -1,5 +1,5 @@
 // Url actual
-let URLact = window.location.pathname.substring(9,10);
+let URLact = window.location.pathname.substr(-6,1);
 console.log(URLact)
 
 //Imagenes
