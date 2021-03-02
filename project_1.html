@@ -16,7 +16,7 @@
 <body>
     <header>
         <nav class="mobile_nav d-flex content">
-            <a class="hide-" href ="index.html#projects"><span class="iconify" data-icon="gridicons:cross" data-inline="false"></span></a>
+            <a href ="index.html#projects"><span class="iconify" data-icon="gridicons:cross" data-inline="false"></span></a>
         </nav>
     </header>
     <main class=" portfolio">
@@ -27,15 +27,12 @@
                 <li>HTML/CSS</li>
                 <li>HTML/CSS</li>
             </ul>
-            <div class=" carrusel ">
-                <img class="project_img">
-                <div class=" small-img">
-                    <img class="project_img">
-                    <img class="project_img">
-                    <img class="project_img">
-                    <img class="project_img">
-                </div>
+            <div class="slider" id="slider-container">
+                <div class="slider__images" id ="slider-js"></div>
+                <div class = "slider__navigation" id="slider-navigation">
+                    <span class=></span> </div>
             </div>
+           
 
         </section>
             
@@ -47,13 +44,13 @@
                </div>
 
               <div class="p-about see-more d-flex-mb d-grid-pc">
-                <button class="button bg-wt-pc">See life <i class="fas fa-external-link-alt"></i></button>
-                <button href="#" class="button bg-dk-pc">See source  <i class="fab fa-github"></i></button>
+                <button class="button bg-wt ">See life <i class="fas fa-external-link-alt"></i></button>
+                <button href="#" class="button bg-wt bg-dk-pc">See source  <i class="fab fa-github"></i></button>
               </div>
 
-              <div class="next-prev d-flex">
-                <button class="bttn-nx-pv"><span class="iconify ic-dk" data-icon="carbon:arrow-left" data-inline="false"></span>Previous project</button>
-                <button href="#" class="bttn-nx-pv">Next project <span class="iconify" data-icon="carbon:arrow-right" data-inline="false"></span></button>
+              <div class="next-prev d-flex-pc hide">
+                <p></p>
+                <button class="bttn-nx-pv"><a href="project_2.html">Next project <span class="iconify" data-icon="carbon:arrow-right" data-inline="false"></span></a></button>
             </div>
             </section>
             
@@ -61,5 +58,6 @@
     
     <script src="https://kit.fontawesome.com/a139549e31.js" crossorigin="anonymous"></script>
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <script src="./assests/js/slider.js"></script>
 </body>
 </html>

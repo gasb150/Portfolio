@@ -1,6 +1,5 @@
-body{
-    color: #1A2236;
-
+p{
+font-size: 18px;
 }
 
 .mobile_nav{
@@ -29,29 +28,40 @@ color: #1A2236;
     padding: 6px 10px;
     margin: 7% 0;
 }
-.carrusel{
-    height: 80vw;
-    display: grid;
-    grid-template-rows: 4fr 1fr;
-}
-.project_img{
-    height: 100%;
-}
-.small-img{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    border: 1px solid #FFFFFF 10%
+
+/* images carrusel */
+.slider{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
     
 }
-.small-img img{
+
+.slider__images{
+    position: relative;
+    left:0;
+    transition: all .5s;
+}
+.slider__navigation{
     width: 100%;
-    height: 100%;
-    column-gap: 0;
+    margin: 1em auto;
+    display: flex;
+    justify-content: space-around;
+}
+.slider-nav{
+    height: 50%;
+    box-shadow: 2px 3px 2px grey inset;
 
 }
-
+.slider-nav:hover{
+    border: 5px solid darkblue;
+}
+.slider-nav--active{
+    box-shadow: 2px 2px grey;
+    border: 5px solid darkblue;
+}
+/*end*/
 .project_info{
-    background-color: transparent;
     padding: 0;
     margin: 10% 4.5% 5% 3%;
     line-height: 27px;
@@ -70,18 +80,19 @@ color: #1A2236;
     margin: auto;
     vertical-align: baseline;
 }
-
-.button .ic-wt {
+.button i{
     color: #1A2236;
     position: absolute;
-    right: 17%;
-}
+    right: 30%;
+} 
 
 @media only screen and (min-width: 1024px) {
-
+    body{
+        border: 50px solid #1a2236d5
+    
+    }
 .project_info{
-    margin: 0;
-    padding: 0;
+
 flex-direction: column;
 justify-content: center;
 
