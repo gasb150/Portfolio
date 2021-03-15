@@ -75,10 +75,12 @@ color: #1A2236;
 }
 
 .button{
+   
     border: 1px solid #1A2236;
     width: 75%;
     margin: auto;
     vertical-align: baseline;
+    
 }
 .button i{
     color: #1A2236;

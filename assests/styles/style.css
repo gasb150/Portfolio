@@ -4,6 +4,9 @@ h1,h2{
     font-style: normal;
     letter-spacing: 0em;
 }
+.bold{
+    font-weight: bold;
+}
 .bg-dk{
     background: #1A2236;
     color: #FFFFFF;
@@ -118,6 +121,7 @@ a{
     margin: 10% 0;
 }
 .button{
+    background-color: #1A2236;
     height: 44px;
     border-radius: 0px;
     width: 100%;
@@ -268,19 +272,27 @@ border-radius: 4px;
 }
 
 footer{
+    margin-top: 5%;
     height: 20vh;
     border-radius: 0px;
     row-gap: 15%;
 }
 footer section{
     padding: 5%;
+    align-items: center;
+    font-size: 30px;
 }
 .social_contact{
-    justify-content: space-between;
+    flex-direction: row-reverse;
+    justify-content: right;
 }
 footer i{
     color: white;
 }
+.social_contact a{
+    padding: 5%;    
+}
+
 
 @media only screen and (min-width: 1024px) {
     .hide-mb{
