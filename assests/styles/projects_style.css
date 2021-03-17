@@ -49,7 +49,7 @@ color: #1A2236;
     justify-content: space-around;
 }
 .slider-nav{
-    height: 50%;
+    /* height: 50%; */
     box-shadow: 2px 3px 2px grey inset;
 
 }
@@ -83,10 +83,13 @@ color: #1A2236;
     
 }
 .button i{
-    color: #1A2236;
+    /* color: #1A2236; */
     position: absolute;
     right: 30%;
-} 
+}
+ .button {
+    background-color: white;
+}
 
 @media only screen and (min-width: 1024px) {
     body{
@@ -105,10 +108,15 @@ border-radius: nullpx;
 .p-about{
     max-width: 720px;
 }
+
 .button{
     width: 100%;
     max-width: 246px;
+    background-color: #1A2236;
+
+   
 }
+
 .button i{
     position: static;
 }
