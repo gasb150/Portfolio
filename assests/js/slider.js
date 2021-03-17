@@ -3,7 +3,7 @@ let URLact = window.location.pathname.substr(-6,1);
 console.log(URLact)
 
 //Imagenes
-let images = [`./assests/images/project_${URLact}/img_1.jpg`, `./assests/images/project_${URLact}/img_2.jpg`, `./assests/images/project_${URLact}/img_3.jpg`, `./assests/images/project_${URLact}/img_4.jpeg`, `./assests/images/project_${URLact}/img_5.jpeg`];
+let images = [`./assests/images/project_${URLact}/img_1.jpg`, `./assests/images/project_${URLact}/img_2.jpg`, `./assests/images/project_${URLact}/img_3.jpg`, `./assests/images/project_${URLact}/img_4.jpg`, `./assests/images/project_${URLact}/img_5.jpg`];
 //Elemento para cargar el slider
 let slider = document.getElementById("slider-js");
 //elemento general
