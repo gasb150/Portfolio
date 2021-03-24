@@ -121,6 +121,7 @@ a{
     margin: 10% 0;
 }
 .button{
+    cursor: pointer;
     background-color: #1A2236;
     height: 44px;
     border-radius: 0px;
