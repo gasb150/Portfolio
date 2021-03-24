@@ -151,6 +151,7 @@ justify-content: space-between;
 
 .projects-grid{
  grid-template-rows: 9fr 4fr;
+ border: 2px rgb(221 223 230) solid ;
 }
 
 .project_info h3, .project_info a{
@@ -396,7 +397,8 @@ font-size: 110px;
     .vertical-lf {
         transform: rotate(-90deg);
         margin: 0;
-        text-align: right;
+        top: 20rem;
+        position: relative;
       }
       .list_leng_fram{
           width: 55%;
@@ -419,7 +421,6 @@ text-align: center;
       .pt {
         margin: 2% 2%;
         box-sizing: border-box;
-        
     }
 
       .pt-p1{
@@ -437,6 +438,8 @@ text-align: center;
         grid-template-columns:repeat(2,1fr);
         display: grid;
         row-gap: 25px;
+        column-gap: 10px;
+       
     }
     .p2-p6 div img{
         max-width: 45vw;

@@ -63,16 +63,17 @@ color: #1A2236;
      object-fit: cover;
 }
 .slider-nav{
-    /* height: 50%; */
+    height: 50%;
     box-shadow: 2px 3px 2px grey inset;
+    border: 5px solid  transparent;
 
 }
 .slider-nav:hover{
-    border: 5px solid darkblue;
+    border: 5px solid  #1a2236d5;
 }
 .slider-nav--active{
     box-shadow: 2px 2px grey;
-    border: 5px solid darkblue;
+    border: 5px solid  #1a2236d5;
 }
 /*end*/
 .project_info{
