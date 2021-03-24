@@ -34,6 +34,7 @@ color: #1A2236;
     width: 90%;
     margin: auto;
     overflow: hidden;
+   
     
 }
 
@@ -41,12 +42,25 @@ color: #1A2236;
     position: relative;
     left:0;
     transition: all .5s;
+    
+ 
+    
+}
+.slider__images  img{
+    max-height: 40rem;
+    object-fit: cover;
+    object-position: 20% 20%;
 }
 .slider__navigation{
     width: 100%;
     margin: 1em auto;
     display: flex;
     justify-content: space-around;
+   
+}
+.slider__navigation img{
+      max-height: 10rem; 
+     object-fit: cover;
 }
 .slider-nav{
     /* height: 50%; */
