@@ -1,4 +1,3 @@
- 
 {
   "connector": {
     "name": "local",
@@ -13,6 +12,7 @@
     "disown-opener",
     "html-checker",
     "meta-charset-utf-8",
-    "meta-viewport"
+    "meta-viewport",
+    "no-inline-styles:error"
   ]
 }
