@@ -1,9 +1,20 @@
+const fs = require(fs)
+
 // Url actual
 let URLact = window.location.pathname.substr(-6,1);
-console.log(URLact)
 
 //Imagenes
-let images = [`./assests/images/project_${URLact}/img_1.jpg`, `./assests/images/project_${URLact}/img_2.jpg`, `./assests/images/project_${URLact}/img_3.jpg`, `./assests/images/project_${URLact}/img_4.jpg`, `./assests/images/project_${URLact}/img_5.jpg`];
+
+let image =[]
+const imagesCall = [`./assests/images/project_${URLact}/img_1.jpg`, `./assests/images/project_${URLact}/img_2.jpg`, `./assests/images/project_${URLact}/img_3.jpg`, `./assests/images/project_${URLact}/img_4.jpg`, `./assests/images/project_${URLact}/img_5.jpg`
+];
+for (let i=0; i<imagesCall.length; i+=1){
+fs.access(imagesCall[i], (err) =>{
+ if (err===false){
+     image.push(imagesCall[i])
+ }    
+})
+}
 //Elemento para cargar el slider
 let slider = document.getElementById("slider-js");
 //elemento general

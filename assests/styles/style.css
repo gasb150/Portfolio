@@ -422,10 +422,12 @@ text-align: center;
     .p2-p6{
         grid-template-columns:repeat(2,1fr);
         display: grid;
+        row-gap: 25px;
     }
     .p2-p6 div img{
-        width: 45vw;
+        max-width: 45vw;
         height: 30vw;
+       
     }
     .image-geometry_2{
         align-self: end;
