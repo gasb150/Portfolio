@@ -281,18 +281,16 @@ border-radius: 4px;
 
 footer{
     margin-top: 5%;
-    height: 20vh;
+    /* height: 20vh; */
     border-radius: 0px;
-    row-gap: 15%;
+    row-gap: 5px;
+    padding: 1% 0;
 }
 footer section{
-    padding: 5%;
+    padding: 0 5%;
     align-items: center;
     font-size: 30px;
-}
-.social_contact{
-    flex-direction: row-reverse;
-    justify-content: right;
+    justify-content: center;
 }
 footer i{
     color: white;
@@ -542,6 +540,11 @@ color: #7D7C84;
     }
     .show-pc{
         display: block;
+    }
+
+    .social_contact{
+        flex-direction: row-reverse;
+        justify-content: right;
     }
 }
 
