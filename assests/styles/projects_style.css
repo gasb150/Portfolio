@@ -84,11 +84,10 @@ h3 {
 
 .see-more {
   flex-direction: column;
-  
   justify-content: center;
 }
 
-.see-more a{
+.see-more a {
   color: #1a2236;
 }
 
@@ -130,6 +129,7 @@ h3 {
 
   .button i {
     position: static;
+    padding-left: 30%;
   }
 
   .see-more {
@@ -139,10 +139,11 @@ h3 {
     width: 70%;
     column-gap: 10%;
   }
-  .see-more a{
+
+  .see-more a {
     color: #fff;
   }
-  
+
   .next-prev {
     justify-content: space-between;
     border: none;

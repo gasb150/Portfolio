@@ -133,12 +133,14 @@ a {
   border-radius: 0;
   width: 100%;
   box-sizing: border-box;
-  margin: 5% 0 !important;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
 }
 
 footer a,
-.button a,
-.gt_button {
+.button {
   color: white;
 }
 
@@ -288,13 +290,10 @@ footer {
   row-gap: 5px;
   padding: 1% 0;
 }
-footer a {
-  font-size: 2rem;
-}
+
 footer section {
   padding: 0 5%;
   align-items: center;
-
   justify-content: center;
 }
 
@@ -358,6 +357,10 @@ footer i {
     box-shadow: 0 0.5px 0 0 #dddfe6;
   }
 
+  footer a {
+    font-size: 2rem;
+  }
+
   .navbar a {
     line-height: 24px;
   }
@@ -400,10 +403,6 @@ footer i {
   .principal_right .img1 {
     width: 100%;
   }
-
-
-
-  /* main projects */
 
   .vertical-lf {
     transform: rotate(-90deg);
@@ -556,8 +555,13 @@ footer i {
     display: block;
   }
 
+  .resume {
+    align-self: center;
+  }
+
   .social_contact {
     flex-direction: row-reverse;
     justify-content: right;
+    align-self: center;
   }
 }
