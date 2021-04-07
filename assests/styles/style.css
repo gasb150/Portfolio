@@ -121,7 +121,6 @@ a {
   flex-direction: column;
 }
 
-
 .geometry_2_mobile {
   width: 100%;
   margin: 10% 0;
@@ -358,7 +357,8 @@ footer i {
     box-shadow: 0 0.5px 0 0 #dddfe6;
   }
 
-  footer a, .social_contact a {
+  footer a,
+  .social_contact a {
     font-size: 2rem;
   }
 
@@ -386,7 +386,13 @@ footer i {
     margin: 5% 10%;
   }
 
-  .principal_left .social_contact{
+  .social_contact {
+    flex-direction: row-reverse;
+    justify-content: right;
+    align-self: center;
+  }
+
+  .principal_left .social_contact {
     flex-direction: row;
     color: #1a2236;
   }
@@ -562,12 +568,6 @@ footer i {
   }
 
   .resume {
-    align-self: center;
-  }
-
-  .social_contact {
-    flex-direction: row-reverse;
-    justify-content: right;
     align-self: center;
   }
 }
