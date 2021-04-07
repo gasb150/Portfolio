@@ -175,7 +175,7 @@ footer a,
 .project_img {
   width: 100%;
   min-height: 186px;
-  background-color: blue;
+  background-color: #fdc35a;
   object-fit: cover;
   object-position: 100% 0;
   height: 70vw;
