@@ -1,63 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
 
-  <link rel="stylesheet" href="assests/styles/reset.css">
-  <link rel="stylesheet" href="assests/styles/style.css" />
-  <link rel="stylesheet" href="assests/styles/projects_style.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assests/styles/reset.css">
+    <link rel="stylesheet" href="assests/styles/style.css" />
+    <link rel="stylesheet" href="assests/styles/projects_style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assests/images/favicon-32x32.png">
+    <link rel="icon" href="./assests/images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assests/images/favicon-16x16.png">
+    <link rel="manifest" href="./assests/images/site.webmanifest">
 </head>
+
 <body>
     <header>
         <nav class="mobile_nav d-flex content">
-            <a href ="index.html#projects"><span class="iconify" data-icon="gridicons:cross" data-inline="false"></span></a>
+            <a href="index.html#projects"><span class="iconify" data-icon="gridicons:cross"
+                    data-inline="false"></span></a>
         </nav>
     </header>
     <main class=" portfolio">
         <section class="content">
-            <h3 class= 'project_title'>The Next Web Responsive</h3>
+            <h3 class='project_title'>The Next Web Responsive</h3>
             <ul class='list_leng_fram d-flex'>
                 <li>HTML/CSS</li>
-                        <li>Clone</li>  
-               
+                <li>Clone</li>
+
             </ul>
             <div class="slider" id="slider-container">
-                <div class="slider__images" id ="slider-js"></div>
-                <div class = "slider__navigation" id="slider-navigation"></div>
-                  
+                <div class="slider__images" id="slider-js"></div>
+                <div class="slider__navigation" id="slider-navigation"></div>
+
             </div>
 
         </section>
-            
-            <div class="project_info d-grid-pc">
-               <div class="p-about ">
-               <p>This project is the clone of the Next Web homepage using semantic HTML5 elements appropriately sized and positioned.</p>
-               <p> With flexbox, CSS grid, and positioning to position the various elements. The background has images and gradients. Use media queries to make the page responsive at two main breakpoints: 1024px and 767px.</p>
 
-               </div>
+        <div class="project_info d-grid-pc">
+            <div class="p-about ">
+                <p>This project is the clone of the Next Web homepage using semantic HTML5 elements appropriately sized
+                    and positioned.</p>
+                <p> With flexbox, CSS grid, and positioning to position the various elements. The background has images
+                    and gradients. Use media queries to make the page responsive at two main breakpoints: 1024px and
+                    767px.</p>
 
-              <div class="p-about see-more d-flex-mb d-grid-pc">
-
-
-                <a href="https://gasb150.github.io/The-next-web-responsive/" target="_blank" rel="noreferrer noopener" class="button bg-wt bg-dk-pc ">Live Demo <i class="fas fa-external-link-alt"></i></a>
-                <a href="https://github.com/gasb150/The-next-web-responsive" target="_blank" rel="noreferrer noopener" class="button bg-wt bg-dk-pc">See source  <i class="fab fa-github"></i></a>
             </div>
 
-              <div class="next-prev d-flex-pc hide">
-                <a  class="bttn-nx-pv show-pc" href="project_3.html"><span class="iconify ic-dk" data-icon="carbon:arrow-left" data-inline="false"></span>Previous project</a>
+            <div class="p-about see-more d-flex-mb d-grid-pc">
+
+
+                <a href="https://gasb150.github.io/The-next-web-responsive/" target="_blank" rel="noreferrer noopener"
+                    class="button bg-wt bg-dk-pc ">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                <a href="https://github.com/gasb150/The-next-web-responsive" target="_blank" rel="noreferrer noopener"
+                    class="button bg-wt bg-dk-pc">See source <i class="fab fa-github"></i></a>
+            </div>
+
+            <div class="next-prev d-flex-pc hide">
+                <a class="bttn-nx-pv show-pc" href="project_3.html"><span class="iconify ic-dk"
+                        data-icon="carbon:arrow-left" data-inline="false"></span>Previous project</a>
                 <p></p>
             </div>
         </div>
-            
+
     </main>
-    
+
     <script src="https://kit.fontawesome.com/a139549e31.js" crossorigin="anonymous"></script>
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <script src="./assests/js/slider.js"></script>
 </body>
+
 </html>
