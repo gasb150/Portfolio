@@ -357,7 +357,7 @@ footer i {
     box-shadow: 0 0.5px 0 0 #dddfe6;
   }
 
-  footer a {
+  footer a, .social_contact a {
     font-size: 2rem;
   }
 
@@ -383,6 +383,11 @@ footer i {
     box-sizing: border-box;
     width: 40%;
     margin: 5% 10%;
+  }
+
+  .principal_left .social_contact{
+    flex-direction: row;
+    color: #1a2236;
   }
 
   .button {
