@@ -1,4 +1,21 @@
 
+@keyframes dowmload{
+  from {
+    padding-top: 0%;
+  }
+  to {
+    padding-top: 10%;
+  }
+}
+@keyframes arrow{
+  /* from {} */
+  to{
+   margin-left: 10%;
+  font-size: 20px;
+  
+  }
+}
+
 h1,
 h2 {
   font-family: Playfair Display, sans-serif;
@@ -127,6 +144,13 @@ a {
   border-style: dotted;
 }
 
+.button:hover .iconify{
+  animation-duration: .2s;
+  animation-name: dowmload;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
 .content {
   width: 90%;
   margin: auto;
@@ -210,11 +234,14 @@ footer a,
 
 .project_link:hover .iconify{
 
- 
-  transition: 1s;
+  animation-duration: .9s;
+  animation-name: arrow;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; 
+  /* transition: 1s;
   margin-left: 10%;
   font-size: 25px;
-  height: 50px;
+  height: 50px; */
 }
 
 .list_leng_fram li {
