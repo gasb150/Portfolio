@@ -106,17 +106,23 @@ h1 {
   text-align: left;
   margin: 7% 0;
   width: 220px;
+  font-style: normal;
+  font-weight: 400;
 }
+
+
+
 
 h2 {
   font-size: 50px;
   margin: 7% 0;
 }
 
-h3 {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
+.project_title {
+  padding-bottom: 5%;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 16px;
   font-style: normal;
   letter-spacing: 0;
 }
@@ -125,10 +131,10 @@ h3,
 p,
 button,
 a {
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 21px;
+  line-height: 24px;
   letter-spacing: -0.01em;
   text-align: left;
   border-bottom: transparent 5px solid;
@@ -233,7 +239,7 @@ footer a,
 
 .project_link {
   border: 1px solid #fff;
-  padding: 1rem 1.5rem;
+  padding: .5rem .5rem;
   max-width: 178px;
   margin-top: 5%;
 }
@@ -396,6 +402,22 @@ footer i {
     margin: 17% 0;
   }
 
+  .project_title{
+    font-weight: 700;
+    margin-bottom:5%;
+    letter-spacing: 0em;
+    text-align: left;
+    font-size: 40px;
+    line-height: 32px;
+  }
+.p1  .project_info .project_title{
+
+  font-size: 60px;
+  line-height: 48px;
+
+
+  }
+
   h2 {
     font-size: 110px;
   }
@@ -484,9 +506,6 @@ footer i {
     position: relative;
   }
 
-  .list_leng_fram {
-    width: 55%;
-  }
 
   .project_link {
     border: 1px solid #1a2236;
@@ -630,5 +649,17 @@ footer i {
 
   .resume {
     align-self: center;
+  }
+
+  .project_link {
+   
+    padding: 1rem 1.5rem;
+ 
+  }
+
+  .project_title{
+
+    font-size: 40px;
+    line-height: 32px;
   }
 }
