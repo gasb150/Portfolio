@@ -1,18 +1,19 @@
 
-@keyframes dowmload{
+@keyframes dowmload {
   from {
     padding-top: 0%;
   }
+
   to {
     padding-top: 10%;
   }
 }
-@keyframes arrow{
+
+@keyframes arrow {
   /* from {} */
-  to{
-   margin-left: 10%;
-  font-size: 20px;
-  
+  to {
+    margin-left: 10%;
+    font-size: 20px;
   }
 }
 
@@ -131,21 +132,40 @@ a {
   letter-spacing: -0.01em;
   text-align: left;
   border-bottom: transparent 5px solid;
-  
 }
 
 a {
   text-decoration: none;
 }
 
+footer a,
+.button {
+  color: white;
+}
+
+.project_info h3,
+.project_info a {
+  color: white;
+}
+
+.social_contact a {
+  padding: 5%;
+}
+
+.project_link a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .social_contact a:hover {
-  transition: .5s;
+  transition: 0.5s;
   border-bottom: dotted 5px;
   border-style: dotted;
 }
 
-.button:hover .iconify{
-  animation-duration: .2s;
+.button:hover .iconify {
+  animation-duration: 0.2s;
   animation-name: dowmload;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -176,11 +196,6 @@ a {
   align-items: center;
 }
 
-footer a,
-.button {
-  color: white;
-}
-
 .hide-mb {
   display: none;
 }
@@ -195,13 +210,10 @@ footer a,
 }
 
 .projects-grid {
+  padding: 4%;
   grid-template-rows: 9fr 4fr;
-  border: 2px rgb(221 223 230) solid;
-}
-
-.project_info h3,
-.project_info a {
-  color: white;
+  border-left: 2px rgb(221 223 230) solid;
+  border-right: 2px rgb(221 223 230) solid;
 }
 
 .project_img {
@@ -211,6 +223,7 @@ footer a,
   object-fit: cover;
   object-position: 100% 0;
   height: 70vw;
+  align-self: center;
 }
 
 .list_leng_fram {
@@ -223,21 +236,14 @@ footer a,
   padding: 1rem 1.5rem;
   max-width: 178px;
   margin-top: 5%;
- 
 }
 
-.project_link a{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.project_link:hover .iconify{
-
-  animation-duration: .9s;
+.project_link:hover .iconify {
+  animation-duration: 0.9s;
   animation-name: arrow;
   animation-iteration-count: infinite;
-  animation-direction: alternate; 
+  animation-direction: alternate;
+
   /* transition: 1s;
   margin-left: 10%;
   font-size: 25px;
@@ -357,10 +363,6 @@ footer section {
 
 footer i {
   color: white;
-}
-
-.social_contact a {
-  padding: 5%;
 }
 
 @media only screen and (min-width: 1024px) {
