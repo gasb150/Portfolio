@@ -113,10 +113,18 @@ a {
   line-height: 21px;
   letter-spacing: -0.01em;
   text-align: left;
+  border-bottom: transparent 5px solid;
+  
 }
 
 a {
   text-decoration: none;
+}
+
+.social_contact a:hover {
+  transition: .5s;
+  border-bottom: dotted 5px;
+  border-style: dotted;
 }
 
 .content {
@@ -188,9 +196,25 @@ footer a,
 
 .project_link {
   border: 1px solid #fff;
-  width: 65%;
+  padding: 1rem 1.5rem;
   max-width: 178px;
   margin-top: 5%;
+ 
+}
+
+.project_link a{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.project_link:hover .iconify{
+
+ 
+  transition: 1s;
+  margin-left: 10%;
+  font-size: 25px;
+  height: 50px;
 }
 
 .list_leng_fram li {
@@ -198,7 +222,9 @@ footer a,
   background: #98dede;
   width: auto;
   text-align: center;
-  padding: 7%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
 }
 
 .about h2 {
@@ -369,6 +395,7 @@ footer i {
 
   .navbar a {
     line-height: 24px;
+    color: black;
   }
 
   .show {
