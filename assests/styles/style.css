@@ -658,7 +658,8 @@ footer i {
   }
 
   .project_title{
-
+    margin-bottom: 0;
+    padding: 2%;
     font-size: 40px;
     line-height: 32px;
   }

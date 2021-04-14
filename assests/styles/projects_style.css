@@ -161,4 +161,10 @@ h3 {
   .bttn-nx-pv .iconify {
     margin: 0 1%;
   }
+
+  .mobile_nav .iconify {
+    font-size: 40px;
+    color: #1a2236;
+    padding-top: 20px;
+  }
 }
