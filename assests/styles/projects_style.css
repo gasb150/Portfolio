@@ -1,7 +1,5 @@
 @keyframes return {
-
   to {
-   
     font-size: 2.5rem;
   }
 }
@@ -20,11 +18,12 @@ p {
 }
 
 .mobile_nav .iconify:hover {
-  animation-duration: .8s;
+  animation-duration: 0.8s;
   animation-name: return;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
+
 h3 {
   font-size: 20px;
   font-weight: 700;
