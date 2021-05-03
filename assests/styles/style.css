@@ -371,7 +371,25 @@ footer i {
   color: white;
 }
 
+.resume {
+  padding-left: 5%;
+}
+
+@media only screen and (min-width: 540px) {
+  .navbar .menu-list ul li a{
+     font-size: 2rem;
+  }
+  .navbar .menu-list ul li img{
+    width: 5rem;
+ }
+}
+
 @media only screen and (min-width: 1024px) {
+
+
+.navbar .menu-list ul li img{
+  width: 2rem;
+}
   .hide-mb {
     display: block;
   }
@@ -396,7 +414,7 @@ footer i {
 
   /* fonts */
   h1 {
-    font-size: 110px;
+    font-size: 6rem;
     line-height: 1;
     width: 484px;
     margin: 17% 0;
